@@ -30,7 +30,7 @@
     margin-top: 50px;
 }
 
-@media  screen and (min-width : 1050px){
+@media  screen and (min-width : 950px){
     .contactInfo {
         text-align: start;
     }
@@ -41,7 +41,15 @@
     text-decoration: underline;
 }
 
-.contactInfo iframe{
-    position: absolute;
-    box-sizing: border-box;
+/* evenement */
+
+.tacanImage{
+    max-width: 100%;
+    margin-bottom: 50px;
 }
+
+/* @media screen and (min-width : 1050px){
+    .tacanImage{
+        max-width: 100%;
+    }
+} */
