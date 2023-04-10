@@ -9,90 +9,81 @@
     <link rel="stylesheet" href="style.css">
     <title>ASPTT Agen Athlétisme</title>
 </head>
+
 <body class="bg-dark">
     <!-- header -->
-    <div class="container">
+    <div class="container-fluid ">
         <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 border-bottom border-warning" id="acceuil">
             <div class="d-flex align-items-center mb-3 mb-md-3 me-lg-auto text-light text-decoration-none">
                 <a href="#acceuil">
                     <img src="Assets/logo-aspttagen.jpg" width="120" height="90">
                 </a>
-                <h1 class="fs-2 p-3">ASPTT Section Athletisme </h1>
+                <h1 class="fs-1 px-3">ASPTT Section Athletisme </h1>
             </div>
 
             <nav id="navbar">
                 <ul class="nav nav-pills">
-                    <li class="nav-item "><a href="index.html" class="nav-link bg-warning active text-dark" aria-current="page">Acceuil</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link bg-warning active text-dark">Acceuil</a></li>
                     <li class="nav-item"><a href="evenement.html" class="nav-link text-light">Evènements</a></li>
                     <li class="nav-item"><a href="#subscribe" class="nav-link text-light">inscription</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link text-light">Contact</a></li>
                 </ul>
             </nav>    
         </header>    
-    </div>
+    <!-- fin header -->
 
-    <main >
-        <!-- First section -->
-            <section class="container bg-body-secondary p-3 mb-4 rounded-4">
-                    <h1>L'ASPTT : Mas que ùn club!!!</h1>
+        <main class="container">
+            <!-- section Acceuil -->
+        
+            <section class="bg-body-secondary p-3 mb-4 rounded-4 text-center">
+                <h1 id="acceuilTitle"><span class="acceuilSpan">L'ASPTT</span> : Mas que ùn club!!!</h1>
                 <div>
-                    <h2>Bienvenue sur la page de l'ASPTT Agen Athletisme</h2>
-                    <p>Club d'athlétisme implanté dans la commune d'agen, nous sommes un club convivial alliant performances et fêtes.</p>
+                    <h3>Bienvenue sur la page de l'ASPTT Agen Athletisme</h3>
+                    <p>Club d'athlétisme implanté dans la commune d'agen, nous sommes un club convivial alliant performances et
+                        bonne humeur.
+                    Nous sommes plus développé sur l'activité avec les adultes n'étant pas assez developpé pour encadrer un
+                        ecole d'athlétisme.
+                        de ce fait nous n'acceuillons que des personnes de plus de 16 ans.
+                    </p>
                 </div>
                 <div class="acceuilImage">
                     <img src="Assets/FB_IMG_1569263313650.jpg" alt="photo du club" width="100%">
                 </div>
-                <p class="my-4">Voici notre évènement annuel : <span class="fw-bold text-warning">TACAN</span> ou <span class="fw-bold text-warning">Tout Agen Cours à Noël!</span> plus de renseignements <em class="text-decoration-underline">suivez le lien ci-dessous!</em></p>
-                <div class="d-flex flex-wrap justify-content-center my-4 width-100">
-                    <button class="btn btn-warning text-dark p-3"><a class="text-dark fw-bold text-decoration-none"href="evenement.html">TACAN!</a></button>
+                <p class="my-4">Voici notre évènement annuel : <span class="fw-bold acceuilSpan">TACAN</span> 
+                    ou <span class="fw-bold acceuilSpan">Tout Agen Cours à Noël!</span> plus de renseignements 
+                    <em class="text-decoration-underline fw-bold">suivez le lien ci-dessous!</em>
+                </p>
+                <div class="d-flex flex-wrap justify-content-center my-4">
+                    <button class="btn btn-warning text-dark p-3">
+                        <a class="text-dark fw-bold text-decoration-none" href="evenement.html">TACAN!🎅</a>
+                    </button>
                 </div>
             </section>
+            <!-- fin section acceuil -->
 
-            <section id="subscribe" class="container bg-body-secondary p-3 mb-4 rounded-4">
-                <h1 class="my-5">Pour vous inscrire</h1>
-                <form class="d-flex flex-column align-items-center mt-5">
-                    <div class="mb-3 col-md-6">
-                        <label for="lastName" class="form-label">Nom</label>
-                        <input type="text" class="form-control" id="lastName">
+            <!-- section contact -->
+            <section class="bg-body-secondary p-3 rounded-4" id="contact">
+                <h2 class="text-center">Une question?</h2>
+                <div class="d-flex flex-wrap justify-content-around align-items-center">
+                    <div class="contactInfo">
+                        <h4>Adresse:</h4>
+                        <p>292 Rue de Lille 47000 Agen.</p>
+                        <h4>Contact:</h4>
+                        <p>Tel: 0553982839</p>
+                        <p>Email: agen@asptt.com.</p>
                     </div>
-                    <div class="mb-3 col-md-6">
-                        <label for="firstName" class="form-label">Prénom</label>
-                        <input type="email" class="form-control" id="firstName">
+                    <div class="mt-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d802.8196175156038!2d0.6230126318136527!3d44.188026304747375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12abb36ad9b4c1e9%3A0x5a5d9d2cbf68c358!2sEspace%20Sportif%20Antoine%20Lomet!5e0!3m2!1sfr!2sfr!4v1681127195231!5m2!1sfr!2sfr" width="250" height="250" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="mb-3 col-md-6">
-                        <label for="InputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="InputEmail1" placeholder="exemple@email.fr">
-                    </div>
-                    <div class="mb-3 col-md-6">
-                        <label for="adress" class="form-label">Adresse postale</label>
-                        <input type="text" class="form-control" id="adress">
-                    </div>
-                    <div class="mb-3 col-md-6">
-                        <label for="postCode" class="form-label">Code postal</label>
-                        <input type="text" class="form-control" id="posCode">
-                    </div>
-                    <div class="mb-3 col-md-6">
-                        <label for="postCode" class="form-label">Ville</label>
-                        <select class="form-control" name="town" id="townSelect">
-                            <option value="">--choisissez une ville--</option>
-                            <option value="agen">Agen</option>
-                            <option value="toulouse">Toulouse</option>
-                            <option value="bayonne">Bayonne</option>
-                            <option value="pau">Pau</option>
-                            <option value="bordeaux">Bordeaux</option>
-                        </select>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="Check1">
-                        <label class="form-check-label" for="Check1">J'accepte les conditions</label>
-                    </div>
-                    <button type="submit" class="btn btn-warning">Envoyer</button>
-                </form>
+                </div>
             </section>
+            <!--fin section contact -->
+        
+        
+        
+        </main>
 
-    </main>
     <!-- footer -->
-    <div class="container">
         <footer class="d-flex justify-content-between align-items-center py-3 my-4 border-top border-warning">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="#acceuil" class="mb-3 me-2 mb-md-0">
@@ -116,6 +107,7 @@
                 </li>
             </ul>
         </footer>
+    <!-- fin footer -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

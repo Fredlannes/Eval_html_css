@@ -4,7 +4,44 @@
     box-sizing: border-box;
 }
 
-section h1, h2, p{
+/* section h1, h3, p{
     text-align: center;
+} */
+
+#acceuilTitle {
+    font-size: 3em;
+    font-style: italic;
 }
 
+/* acceuil title version desktop */
+
+@media screen and (min-width :1050px){
+    #acceuilTitle{
+        font-size: 4em;
+    }
+}
+
+.acceuilSpan {
+    color: #ffc107;
+}
+
+.contactInfo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media  screen and (min-width : 1050px){
+    .contactInfo {
+        text-align: start;
+    }
+}
+
+.contactInfo h4{
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+.contactInfo iframe{
+    position: absolute;
+    box-sizing: border-box;
+}
