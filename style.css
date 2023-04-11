@@ -34,10 +34,14 @@
     }
 }
 
-
 .contactInfo h4{
     color: #ffc107;
     text-decoration: underline;
+}
+
+.contactInfo p {
+    margin-top: 1.2em;
+    font-weight: bold;
 }
 
 .contactImage {
